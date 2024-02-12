@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: '8BIT WONDER', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #660066 0%, #ff0000 100%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.header {
+    font-size: 150px;
+    width: 100%;
+    text-align: center;
+    color: blueviolet;
+    margin: 30px;
+    -webkit-text-fill-color: #5f1a5f;
+    -webkit-text-stroke: 5px black;
+}
+
+.scores {
+    display: flex;
+    padding: 50px;
+    width: 50%;
+    justify-content: space-evenly;
+    background-color: #C7D3D4FF;
+}
+
+.scores .playerScore,
+.scores .computerScore {
+    padding: 0 25px 0 25px;
+    font-size: 20px;
+    text-align: center;
+}
+.c-count,
+.p-count {
+    padding: 20px;
+    font-size: 50px;
+}
+
+
+.move {
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    font-size: 30px;
+    background-color: red;
+    
+}
+
+.movesleft {
+    font-size: 30px;
+    text-align: center;
+    background-color: red;
+    width: 50%;
+    padding: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    background-color: red;
+}
+
+.buttons button {
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+button:hover {
+    font-size: 30px;
+}
+
+.result {
+    text-align: center;
+    width: 50%;
+    background-color: red;
+    padding: 25px;
+    font-size: 30px;
+}
+
+.restart {
+    justify-content: center;
+    text-align: center;
+    background-color: lightgreen;
+    width: 50%;
+    padding: 20px;
+}
+
+.restart:hover {
+    font-size: 25px;
+}
