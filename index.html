@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/8bit-wonder" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="header">Rock Paper Scissors</div>
+
+        <div class="scores">
+            <div class="playerScore">
+                <h1>Player</h1>
+                <p class="p-count">0</p>
+            </div>
+            <div class="computerScore">
+                <h1>Computer</h1>
+                <p class="c-count">0</p>
+            </div>
+        </div>
+        <div class="result"></div>
+
+        <div class="move">Choose your move</div>
+
+        <div class="buttons">
+            <button class="rock"><i class="fa fa-hand-rock-o"></i>rock</button>
+            <button class="paper"><i class="fa fa-hand-paper-o"></i>paper</button>
+            <button class="scissors"><i class="fa fa-hand-scissors-o"></i>scissors</button>
+        </div>
+        <div class="movesleft">Moves left: </div>
+        
+
+        <button class="restart"></button>
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>
